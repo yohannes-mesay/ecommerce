@@ -38,17 +38,22 @@ function Cart({ cartItems, removeFromCart }) {
           {cartItems.length === 0 ? (
             <p>Your cart is empty</p>
           ) : (
-            <>
+             <>
               {cartItems.map((item, index) => (
                 <div key={index} className="cart-item">
+                  <div className="ctn">
                   <img src={item.image} alt={item.name} />
+                  <div className="line"><br/><hr/><br/></div>
+                  </div>
                   <div className="cart-text">
                     <h3>{item.name}</h3>
                     <p>Quantity: {item.quantity}</p>
                     <button onClick={() => removeFromCart(index)}>Remove</button>
+           
                   </div>
                 </div>
-              ))}
+              )
+              )}
             </>
           )}
         </div>
