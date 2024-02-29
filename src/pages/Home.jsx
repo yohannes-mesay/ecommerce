@@ -24,18 +24,18 @@ function Home() {
         <Button>Button1</Button>
       </Link>
       <div className="catagories">
-        <ProductList src="./src/images/10.jpg" description="Premium Smart Watch (Black)" />
-        <ProductList src="./src/images/iphone15.jpg" description="iPhone 15 Pro Max (Brand New)" />
-        <ProductList src="./src/images/7.jpg" description="Smart Watch with Latest Android OS" />
+        <ProductList src="/public/images/10.jpg" description="Premium Smart Watch (Black)" />
+        <ProductList src="/public/images/iphone15.jpg" description="iPhone 15 Pro Max (Brand New)" />
+        <ProductList src="/public/images/7.jpg" description="Smart Watch with Latest Android OS" />
       </div>
       <h1>Our Products</h1>
       <Link to="/shopCatagories">
         <Button>Button2</Button>
       </Link>
       <div className="catagories">
-        <ProductList src="./src/images/headphone.jpg" description="Headphone" />
-        <ProductList src="./src/images/8.jpg" description="Multi-color modern shoe" />
-        <ProductList src="./src/images/6.jpg" description="Logitech Gamepad White for PC/PS3" />
+        <ProductList src="/public/images/headphone.jpg" description="Headphone" />
+        <ProductList src="/public/images/8.jpg" description="Multi-color modern shoe" />
+        <ProductList src="/public/images/6.jpg" description="Logitech Gamepad White for PC/PS3" />
       </div>
     </div>
   );
